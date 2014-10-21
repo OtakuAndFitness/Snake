@@ -8,6 +8,7 @@ public class snakeWin extends JFrame{
 		this.setLocation(200, 200);
 		this.setSize(435, 390);
 		this.setTitle("SNAKE--v1.0");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		snakeMove sMove =new snakeMove();
 		add(sMove);
