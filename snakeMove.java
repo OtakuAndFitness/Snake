@@ -165,7 +165,7 @@ public class snakeMove extends JPanel implements KeyListener, ActionListener,Run
 			run=false;
 			start.setEnabled(true);
 			score=0;
-			speed=0;
+			speed=5;
 			thread=null;
 			dialog.setVisible(false);
 			repaint();
